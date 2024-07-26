@@ -1,0 +1,10 @@
+.stickyHeader {
+  position: sticky;
+  top: 0;
+  background-color: white; /* Ensures the header has a background color */
+  z-index: 1; /* Ensures the header is above the table rows */
+}
+
+.rowSelected {
+  background-color: var(--mantine-color-blue-light);
+}
