@@ -6,8 +6,6 @@ RUN git clone https://github.com/Ameba-AIoT/ameba-OTA-UI.git /ameba-OTA-UI/
 
 WORKDIR /ameba-OTA-UI/
 
-RUN node -v
-RUN npm -v
 RUN npm i
 RUN npm run build
 
