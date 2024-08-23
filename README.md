@@ -103,7 +103,7 @@ With Docker installed:
    docker start ameba-OTA-UI
    ```
 
-7. If you need to rebuild the container (such as when updated in the OTA UI), use the `--no-cache` flag to rebuild it:
+7. If you need to rebuild the container (such as when updating the OTA UI), use the `--no-cache` flag to rebuild it:
    <pre><code>docker stop ameba-OTA-UI
    docker rm ameba-OTA-UI
    docker build <b>--no-cache</b> -t ameba-ota-ui ./
@@ -142,7 +142,7 @@ Microsoft recommends setting your networking mode to `mirrored` if you are runni
    networkingMode=mirrored
    ```
 
-2. Configure the Hyper-V firewall to allow inbound connections. In a PowerShell window with admin privileges either of these commands:
+2. Configure the Hyper-V firewall to allow inbound connections. In a PowerShell window with admin privileges run either of these commands:
 
    * **Option 1:** Allow all inbound connections:
       ```
